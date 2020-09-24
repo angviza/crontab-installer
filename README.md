@@ -1,6 +1,11 @@
 crontab-installer
 =================
 
+### check add and remove if exists
+#### usage
+crontab-install add "* * * * * /test.sh args"
+crontab-install remove "* * * * * /test.sh args"
+
 A simple script to install or remove a custom crontab.
 
 Here's how it works:
